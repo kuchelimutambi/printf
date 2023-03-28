@@ -20,7 +20,7 @@ int print_rev(char *str)
 	i = count1 - 1;
 	while (i >= 0)
 	{
-		_putchar(*(z + i));
+		putchar(*(z + i));
 		i--;
 		count++;
 	}

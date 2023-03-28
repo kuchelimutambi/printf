@@ -23,7 +23,7 @@ int print_octal(unsigned int n)
 		d = n / c;
 		n = n % c;
 		c = c / 8;
-		_putchar(d + '0');
+		putchar(d + '0');
 		count++;
 	}
 	return (count);
